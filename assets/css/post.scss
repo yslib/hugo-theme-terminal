@@ -50,6 +50,8 @@
     margin: 0 0 15px;
     padding-bottom: 15px;
     border-bottom: $border;
+    padding-top: 15px;
+    border-top: $border;
 
     &:after {
       content: '';
@@ -57,7 +59,7 @@
       bottom: 2px;
       display: block;
       width: 100%;
-      border-bottom: $border;
+      // border-bottom: $border;
     }
 
     a {
